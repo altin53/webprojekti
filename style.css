@@ -544,9 +544,6 @@ margin-bottom: 36px;
 
   }
 
-
-
-
   
  h2 span{
     color: var(--pink);
@@ -558,7 +555,7 @@ margin-bottom: 36px;
     margin-top: 20px;
    font-style: inherit;
    font-size: 15px;
-   margin-right: 32px;
+    margin: 20px;
   }
 
    .butoni{
@@ -577,35 +574,38 @@ margin-bottom: 36px;
      size: 12px;
    }
 
+     #link{
+      text-decoration: none;
+     color: black;
+     margin-left:155px;
+     font-size: 14px;
+     color: var(--pink);
+     }
+
 #link :hover{
     background: var(--pink);
 }
-
-  #erroremri{
+.error{
     height: 19px;
     color: red;
-  }
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 500;
 
-  #erroremail{
-    height: 19px;
-  }
- 
-   #errorpass{
-    height: 19px;
-   }
+}
 
-   #errorconfirmpass{
-    height: 19px;
-   }
+
 .register-form{
     border: 1px solid #ccc;
     background-color: white;
     padding: 20px;
     position: relative;
-    height: 660px;
+    height: 730px;
     width: 500px;
     margin: 0 auto;
- 
+
+
    
     justify-content:center;
     top: 250px;
@@ -688,3 +688,17 @@ margin-bottom: 36px;
      color:var(--pink);
      size: 12px;
    }
+
+   #have{
+    font-size: 15px;
+    margin: 20px;
+    margin-left: 140px;
+   }
+
+#backtologin{
+    font-size: 15px;
+    padding: 20px;
+    color:var(--pink);
+    margin-left: 140px;
+
+}

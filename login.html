@@ -36,25 +36,46 @@
         </div>
     
     </header>
-          <img src="lulalogin.jpg">
-        <form class="login-form" onsubmit="return valido()">
+         
+        <form class="login-form">
          <h2>Login<span>.</span></h2>
          <label for="username">Username</label>
-         <input type="text" placeholder="Enter your Username" required>
-         <div id="erroremri"></div>
+         <input type="text" id="username" placeholder="Enter your Username" required>
+         <div id="usernameError" class="error" ></div>
          <label for="password">Password</label>
          <input type="password" id="password" placeholder="Enter your Password" required><br>
-         <button type="submit">Login</button>
+         <div id="passwordError" class="error"></div>
+         <button type="submit" onclick="validateFormLogin();" id="submitButton">Login</button>
            <p id="account">Don't have an Account ?</p> 
 
-           <a id="link" href="#" onclick="create();;">Create an Account<span>.</span></a>
+           <a id="link" href="#" onclick="next();">Create an Account<span>.</span></a>
         </form>
+
+    
 
         <form class="register-form" style="display: none;">
-              <h4>afasdf</h4>
-        </form>
-    
-   
+        <form action="" class="register-login" style="display: none;">
+            <h2>Sign Up<span>.</span></h2>
+            <label for="username">Username</label>
+            <input type="text" id="useri" placeholder="Enter your Username" >
+            <div id="erroruser"  class="error"></div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your Email">
+            <div id="erroremail" class="error"></div>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" placeholder="Enter your Password">
+            <div id="errorpass" class="error"></div>
+            <label for="confirmpass">Confirm Password</label>
+            <input type="password" id="confirmpass" placeholder="Confirm Password">
+            <div id="errorconfirm" class="error"></div>
+             
 
+            <button type="submit" onclick="validateRegisterForm();" id="signsubmit">Sign</button>
+            <p id="have">I Have An Account</p>
+            <a id="backtologin" href="#" onclick="prev();">Back to Login</a>
+       
+
+        </form>
+   
     </body>
 </html>
