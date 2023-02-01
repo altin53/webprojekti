@@ -26,11 +26,11 @@
     <a href="#" class="logo">flower<span>.</span></a>
 
     <nav class="navbar">
-        <a href="home.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="about.html">About us</a>
-        <a href="contact.html">Contact</a>
-        <a href="login.html">Login</a>
+        <a href="home.php">Home</a>
+        <a href="products.php">Products</a>
+        <a href="about.php">About us</a>
+        <a href="contact.php">Contact</a>
+        <a href="login.php">Login</a>
         
        
     </nav>
@@ -170,10 +170,10 @@
 
         <div class="box">
             <h3>quick links</h3>
-            <a href="home.html">home</a>
-            <a href="about.html">about</a>
-            <a href="products.html">products</a>        
-            <a href="contact.html">contact</a>
+            <a href="home.php">home</a>
+            <a href="about.php">about</a>
+            <a href="products.php">products</a>        
+            <a href="contact.php">contact</a>
         </div>
 
         <div class="box">

@@ -21,11 +21,11 @@
         <a href="#" class="logo">flower<span>.</span></a>
     
         <nav class="navbar">
-            <a href="home.html">Home</a>
-            <a href="products.html">Products</a>
-            <a href="about.html">About us</a>
-            <a href="contact.html">Contact</a>
-            <a href="login.html">Login</a>
+            <a href="home.php">Home</a>
+            <a href="products.php">Products</a>
+            <a href="about.php">About us</a>
+            <a href="contact.php">Contact</a>
+            <a href="login.php">Login</a>
            
         </nav>
     
@@ -36,7 +36,7 @@
         </div>
     
     </header>
-         
+         <section class="loginback">
         <form class="login-form">
          <h2>Login<span>.</span></h2>
          <label for="username">Username</label>
@@ -73,9 +73,13 @@
             <button type="submit" onclick="validateRegisterForm();" id="signsubmit">Sign</button>
             <p id="have">I Have An Account</p>
             <a id="backtologin" href="#" onclick="prev();">Back to Login</a>
-       
+             
 
         </form>
-   
+        </section>
+
+      
+
+        
     </body>
 </html>

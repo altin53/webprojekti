@@ -17,11 +17,11 @@
             <a href="#" class="logo">flower<span>.</span></a>
         
             <nav class="navbar">
-                <a href="home.html">Home</a>
-                <a href="products.html">Products</a>
-                <a href="about.html">About us</a>
-                <a href="contact.html">Contact</a>
-                <a href="login.html">Login</a>
+                <a href="home.php">Home</a>
+                <a href="products.php">Products</a>
+                <a href="about.php">About us</a>
+                <a href="contact.php">Contact</a>
+                <a href="login.php">Login</a>
                
             </nav>
         
@@ -35,7 +35,7 @@
 
         <section class="products" id="products">
 
-            <h1 class="heading"> latest <span>products</span> </h1>
+            <h1 class="heading"> Latest <span>Products</span> </h1>
         
             <div class="box-container">
         
@@ -61,7 +61,7 @@
                         <img src="images/img-2.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                         <img src="images/img-3.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                         <img src="images/img-4.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                         <img src="images/img-6.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                         <img src="images/img-7.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                         <img src="images/img-8.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -173,7 +173,7 @@
                         <img src="images/img-9.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -184,9 +184,44 @@
                 </div>
         
             </div>
+            <section class="footer">
 
+<div class="box-container">
+
+    <div class="box">
+        <h3>quick links</h3>
+        <a href="home.php">home</a>
+        <a href="about.php">about</a>
+        <a href="products.php">products</a>        
+        <a href="contact.php">contact</a>
+    </div>
+
+    <div class="box">
+        <h3>extra links</h3>
+        <a href="#">my account</a>
+        <a href="#">my order</a>
+        <a href="#">my favorite</a>
+    </div>
+
+    <div class="box">
+        <h3>locations</h3>
+        <a href="#">Kosovo</a>
+        <a href="#">USA</a>
+        <a href="#">France</a>
+        <a href="#">Albania</a>
+    </div>
+
+    <div class="box">
+        <h3>contact info</h3>
+        <a href="#">049 - xx -xx</a>
+        <a href="#">example@gmail.com</a>
+        <a href="#">Kosovo</a>
+        <img src="images/payment.png" alt="">
+    </div>
+
+</div>
             <div class="style">
-                <h5>.....</h5>
+                <h5></h5>
             </div>
         
         </section>

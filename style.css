@@ -418,7 +418,11 @@ header .fa-bars{
     margin:.7rem 0;
     width: 100%;
 }
-
+   #formcontact{
+    box-shadow: 11px -9px 12px 0px rgba(196, 18, 101, 0.73);
+-webkit-box-shadow: 11px -9px 12px 0px rgba(216, 15, 139, 0.73);
+-moz-box-shadow: 11px -9px 12px 0px rgba(233, 35, 173, 0.73);
+   }
 .contact .row form .box:focus{
     border-color: var(--pink);
 }
@@ -486,20 +490,26 @@ header .fa-bars{
 
 
 .login-form{
-    border: 1px solid #ccc;
+
+    box-shadow: 11px -9px 12px 0px rgba(0,0,0,0.73);
+-webkit-box-shadow: 11px -9px 12px 0px rgba(0,0,0,0.73);
+-moz-box-shadow: 11px -9px 12px 0px rgba(0,0,0,0.73);
+
+    border: 1px solid rgb(255, 252, 252);
+   border-radius: 20px;
     background-color: white;
     padding: 20px;
     position: relative;
     height: 500px;
     width: 500px;
     margin: 0 auto;
- 
-   
     justify-content:center;
-    top: 250px;
-    left: 120px;
-    right: 500px;
-    bottom: 1000px;
+    margin: 0;
+    top: 30px;
+   left: 700px;
+   
+ 
+    
 }
 
 
@@ -528,7 +538,7 @@ header .fa-bars{
     cursor: pointer;
     font-size: 16px;
     margin-top: 35px;
-      margin-left: 170px;
+      margin-left: 188px;
       border-radius: 5px;
   }
 
@@ -555,14 +565,17 @@ margin-bottom: 36px;
     margin-top: 20px;
    font-style: inherit;
    font-size: 15px;
+   position: relative;
+    right: 0px;
     margin: 20px;
+    margin-right: 20px;
   }
 
    .butoni{
     display: flex;
      justify-content: center;
      position: relative;
-     top: 15px;
+     top: 10px;
      font-size: 15px;
      margin-right: 27px;
      text-decoration: none;
@@ -579,6 +592,8 @@ margin-bottom: 36px;
      color: black;
      margin-left:155px;
      font-size: 14px;
+     position: relative;
+     left: 10px;
      color: var(--pink);
      }
 
@@ -597,21 +612,26 @@ margin-bottom: 36px;
 
 
 .register-form{
-    border: 1px solid #ccc;
+
+    box-shadow: 11px -9px 12px 0px rgba(0,0,0,0.73);
+-webkit-box-shadow: 11px -9px 12px 0px rgba(0,0,0,0.73);
+-moz-box-shadow: 11px -9px 12px 0px rgba(0,0,0,0.73);
+
+    border: 1px solid rgb(255, 255, 255);
+   border-radius: 20px;
     background-color: white;
+    
     padding: 20px;
     position: relative;
-    height: 730px;
+    height: 675px;
     width: 500px;
     margin: 0 auto;
-
-
-   
     justify-content:center;
-    top: 250px;
-    left: 120px;
-    right: 500px;
-    bottom: 1000px;
+    margin: 0;
+    top: 100px;
+   left: 700px;
+  
+   
 }
 
   .register-form label{
@@ -640,8 +660,8 @@ margin-bottom: 36px;
     border:none;
     cursor: pointer;
     font-size: 16px;
-    margin-top: 35px;
-      margin-left: 165px;
+    margin-top: 1px;
+      margin-left: 175px;
       border-radius: 5px;
   }
 
@@ -702,3 +722,14 @@ margin-bottom: 36px;
     margin-left: 140px;
 
 }
+
+.loginback{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(loginback.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
