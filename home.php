@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flower Ecommerce Website</title>
+    <title>Home</title>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -32,13 +32,22 @@
         <a href="contact.php">Contact</a>
         <a href="login.php">Login</a>
         
-       
+   
+
     </nav>
 
     <div class="icons">
         <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="addtocart.php" class="fas fa-shopping-cart"></a>
         <a href="#" class="fas fa-user"></a>
+        <?php 
+        session_start();
+        if (isset($_SESSION['username'])) { ?>
+        <a href="logout.php" class="fas fa-sign-out-alt"></a>
+       
+
+    <?php } ?>
+    
     </div>
 
 </header>
@@ -51,7 +60,7 @@
         <h3>fresh flowers</h3>
         <span> natural & beautiful flowers </span>
         <p>“If you look the right way, you can see that the whole world is a garden.”– Frances Hodgson Burnett.</p>
-        <a href="products.html" class="btn">shop now</a>
+        <a href="products.php" class="btn">shop now</a>
     </div>
     
 </section>

@@ -3,7 +3,7 @@
     <head>
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+ <title>About Us</title>
   
   <link rel="stylesheet" href="style.css">
     </head>
@@ -28,8 +28,14 @@
         
             <div class="icons">
                 <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="addtocart.php" class="fas fa-shopping-cart"></a>
                 <a href="#" class="fas fa-user"></a>
+                <?php 
+        session_start();
+        if (isset($_SESSION['username'])) { ?>
+        <a href="logout.php" class="fas fa-sign-out-alt"></a>
+
+    <?php } ?>
             </div>
         
         </header>
@@ -55,7 +61,7 @@
                     
                     Thank you for choosing us for your floral needs. We look forward to helping you find the perfect flowers to suit your style and budget."</p>
                   <p></p>
-                  <a href="#" class="btn">learn more</a>
+                  <a href="#" class="btn">Learn More</a>
               </div>
       
           </div>

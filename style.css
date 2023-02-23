@@ -93,6 +93,7 @@ header .icons a{
     margin-left: 1.5rem;
 }
 
+
 header .icons a:hover{
     color:var(--pink);
 }
@@ -733,3 +734,62 @@ margin-bottom: 36px;
 
 }
 
+      /* pjesa stilimit te tablese te admin dashboard  */
+
+table.tabela {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0) !important;
+    width: 90%;
+    height: 40%;
+  
+  }
+  
+  table.tabela th {
+    background-color: var(--pink);
+    color: rgb(5, 5, 5);
+    font-size: 12px;
+    font-weight: 200;
+    padding: 10px;
+  
+  }
+
+  
+  table.tabela td {
+    border: 2px solid rgb(0, 0, 0) !important;
+    border-radius: 5px;
+     padding: 10px;
+     font-size: 11px;
+     padding-left: 7px;
+    
+  }
+  
+  .logoutbutton{
+    position: relative;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 3px;
+    color:black;
+    background-color: var(--pink);
+    top: 60px;
+    left: 47%;
+  }
+ 
+   a[name="logout"]:hover {
+
+    background-color: #ff66b2; 
+    cursor: pointer;
+   }
+
+  .deletebutton{
+    padding: 5px;
+    background-color: var(--pink);
+    color: black;
+    border-radius: 5px; 
+  }
+
+  button[name="delete_user"]:hover {
+    background-color: #ff66b2; 
+    cursor: pointer;
+
+  }

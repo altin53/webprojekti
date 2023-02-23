@@ -27,14 +27,14 @@ function validateFormLogin(){
      isValid = false;
    } else {
      usernameError.textContent = "";
-
+     
    }
  
    if (password.value.trim() === "") {
      passwordError.textContent = "Please enter a password";
      isValid = false;
    }   else if (password.value.trim().length < 8) {
-      passwordError.textContent = "Password must be at least 8 characters long";
+      passwordError.textContent = "Wrong Password";
       isValid = false;
    }
        else {
@@ -43,19 +43,17 @@ function validateFormLogin(){
 
     
      if (isValid) {
-      // Navigate to the products page
-      location.href = "products.html";
+      
     }
 }
-const form = document.querySelector(".login-form");
-form.addEventListener("submit", validateForm);
+
 
 
 
 /* validimi i regjister formes*/
 
 function validateRegisterForm(){
-  
+    const buton = document.querySelector('buton');
     const user =document.getElementById('useri');
     const pass = document.getElementById('pass');
     const email =document.getElementById('email');
@@ -64,11 +62,12 @@ function validateRegisterForm(){
     const errorpass = document.getElementById('errorpass');
     const errorconfirm = document.getElementById('errorconfirm');
     const confirmpass = document.getElementById('confirmpass');
-    
+      let valid = true;
+  
     
     if (username.value.trim() === "") {
       erroruser.textContent = "Please enter a username";
-      isValid = false;
+       valid = false;
     } else {
       usernameError.textContent = "";
  
@@ -76,10 +75,10 @@ function validateRegisterForm(){
   
     if (password.value.trim() === "") {
       errorpass.textContent = "Please enter a password";
-      isValid = false;
+      valid = false;
     }   else if (password.value.trim().length < 8) {
        passwordError.textContent = "Password must be at least 8 characters long";
-       isValid = false;
+         valid = false;
     }
         else {
       errorpass.textContent = "";
@@ -88,7 +87,7 @@ function validateRegisterForm(){
 
     if (user.value.trim() === "") {
       erroruser.textContent = "Please enter a username";
-      isValid = false;
+      valid = false;
     } else {
       erroruser.textContent = "";
  
@@ -96,10 +95,11 @@ function validateRegisterForm(){
   
     if (pass.value.trim() === "") {
       errorpass.textContent = "Please enter a password";
-      isValid = false;
+      valid = false;
+     
     }   else if (pass.value.trim().length < 8) {
        errorpass.textContent = "Password must be at least 8 characters long";
-       isValid = false;
+         valid = false;
     }
         else {
       errorpass.textContent = "";
@@ -107,9 +107,13 @@ function validateRegisterForm(){
 
    if(email.value.trim() ==="" ) {
           erroremail.textContent = "Please enter an email";
+          valid = false;
+          
    }
      else if(email.value.indexOf("@") === -1){
-      erroremail.textContent = "Please enter a @";
+      erroremail.textContent = "Please enter an email";
+      valid = false;
+      
      }
       else{
         erroremail.textContent = "";
@@ -117,14 +121,18 @@ function validateRegisterForm(){
 
         if(confirmpass.value.trim() ===""){
                 confirmpass.textContent = "Please enter a password";
+                 valid = false;
 
         }
 
         else if(confirmpass.value.trim() !== pass.value.trim()){
            errorconfirm.textContent = "Password must match";
+          valid = false;
         } 
 
         else{
           errorconfirm.textContent = "";
         }
+       
+        
 }
