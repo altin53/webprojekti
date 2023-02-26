@@ -24,6 +24,10 @@ if (isset($_POST['delete_user'])) {
 $query = "SELECT id, name, email FROM login";
 $result = mysqli_query($conn, $query);
 
+// Get all contact form data from the contact table
+$query_contact = "SELECT  name, email, textarea FROM contact";
+$result_contact = mysqli_query($conn, $query_contact);
+
 ?>
 
 <!DOCTYPE html>
@@ -53,7 +57,7 @@ $result = mysqli_query($conn, $query);
         </div>
     <?php endif ?>
 
-    <table class="tabela" >
+    <table class="tabela">
         <tr>
             <th>ID</th>
             <th>Username</th>
@@ -68,14 +72,36 @@ $result = mysqli_query($conn, $query);
                 <td>
                     <form method="post">
                         <input type="hidden" name="user_id" value="<?php echo $row['id'] ?>">
+                        
                         <button type="submit" class="deletebutton" name="delete_user">Delete</button>
+                       
+                    
                     </form>
                 </td>
             </tr>
-            
         <?php endwhile ?>
     </table>
-    <a class="logoutbutton" href="logout.php"  name="logout" >Log Out</a>
- 
-</body>
-</html>
+
+    <h2  class="usercontactxt">Contact Form Submissions</h2>
+    <table class="tabela">
+        <tr>
+            
+            <th>Name</th>
+            <th>Email</th>
+            <th>Message</th>
+        </tr>
+        <?php while ($row_contact = mysqli_fetch_assoc($result_contact)) : ?>
+            <tr>
+  
+                <td><?php echo $row_contact['name'] ?></td>
+                <td><?php echo $row_contact['email'] ?></td>
+                <td><?php echo $row_contact['textarea'] ?></td>
+            </tr>
+
+            <?php endwhile ?>
+       </table>
+                  <a class="logoutbutton" href="logout.php"  name="logout" >Log Out</a>
+
+                  <h1 class="opa"></h1>
+        </body>
+    </html>

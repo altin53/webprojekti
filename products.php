@@ -58,7 +58,7 @@
                         <div class="icons">
                             
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="addtocart.php?productId=1&productName=Daffodil&productPrice=12.99" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
    
                         </div>
@@ -71,7 +71,7 @@
                         <input type="hidden" name="productId" value="1">
                         <input type="hidden" name="productName" value="Daffodil">
                         <input type="hidden" name="productPrice" value="12.99">
-                        <a href="addtocart.php?productId=1&productName=Daffodil&productPrice=12.99" class="cart-btn">Add to Cart</a>
+                        <a href="#" class="cart-btn">Add to Cart</a>
                       </form>
                 </div>
         
@@ -81,7 +81,7 @@
                         <img src="images/img-2.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="addtocart.php?productId=2&productName=Allium&productPrice=10.99" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                         <img src="images/img-3.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="addtocart.php?productId=3&productName=Ageratum&productPrice=9.99" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                         <img src="images/img-4.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="addtocart.php?productId=4&productName=Angelica&productPrice=7.99" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                         <img src="images/img-5.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="addtocart.php?productId=5&productName=Baneberry&productPrice=7.99" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                         <img src="images/img-6.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="addtocart.php?productId=6&productName=Coleus&productPrice=14.99" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -202,7 +202,7 @@
                         <img src="images/img-7.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="addtocart.php?productId=7&productName=Comfrey&productPrice=18.99" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
                         <img src="images/img-8.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="addtocart.php?productId=8&productName=Cosmos&productPrice=16.99" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>
@@ -248,7 +248,7 @@
                         <img src="images/img-9.jpg" alt="">
                         <div class="icons">
                             <a href="#" class="fas fa-heart"></a>
-                            <a href="addtocart.php?productId=9&productName=Daffodil&productPrice=11.99" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
                             <a href="#" class="fas fa-share"></a>
                         </div>
                     </div>

@@ -7,6 +7,7 @@
    <title>Login and Register</title>
           <link rel="stylesheet" href="style.css">
 
+          <script src="slide.js"></script>
           <script src="login.js"></script>
           <title>Log in and Sign up</title>
 
@@ -168,6 +169,24 @@ $registration->register();
              
 
         </form>
-   
+                    
+        <div class="slider">
+ 
+  <img class="slide"  style="height: 300px; width: 500px;"  src="flowerslide/1.jpg">
+  <img class="slide"  style="height: 300px; width: 500px;"  src="flowerslide/14.jpg">
+  <img class="slide"  style="height: 300px; width: 500px;" src="flowerslide/4.jpg">
+  <img class="slide"  style="height: 300px; width: 500px;"  src="flowerslide/11.jpg">
+  <img class="slide"  style="height: 300px; width: 500px;"  src="flowerslide/16.jpg">
+  <img class="slide"  style="height: 300px; width: 500px;"  src="flowerslide/2.jpg">
+  <img class="slide"  style="height: 300px; width: 500px;"  src="flowerslide/15.jpg">
+  <img class="slide"  style="height: 300px; width: 500px;"  src="flowerslide/7.jpg">
+  <img class="slide"  style="height: 300px; width: 500px;"  src="flowerslide/12.jpg">
+  <img class="slide"  style="height: 300px; width: 500px;"  src="flowerslide/13.jpg">
+  <img class="slide"  style="height: 300px; width: 500px;"  src="flowerslide/15.jpg">
+
+</div>
+
+<h1 class="logintext">"Discover the Beauty of <span> Nature."</span></h1>
+<script src="slide.js"></script>
     </body>
 </html>

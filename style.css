@@ -488,8 +488,23 @@ header .fa-bars{
 }
 
  
+.logintext{
+    position: relative;
+    left: -780px;
+    top: -150px;
+    color: #333333;
+    margin-left:20px;
+    font-size: 21px;
+    color: wheat;
 
+}
 
+ .logintext span{
+    font-size: 29px;
+   color:#A4508B;
+   padding-left: 12px;
+    
+ }
 .login-form{
 
     box-shadow: 11px -9px 12px 0px rgba(0,0,0,0.73);
@@ -502,15 +517,13 @@ header .fa-bars{
     padding: 20px;
     position: relative;
     height: 500px;
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
     justify-content:center;
     margin: 0;
     top: 30px;
    left: 700px;
-   
- 
-    
+     
 }
 
 
@@ -539,7 +552,7 @@ header .fa-bars{
     cursor: pointer;
     font-size: 16px;
     margin-top: 35px;
-      margin-left: 188px;
+      margin-left: 150px;
       border-radius: 5px;
   }
 
@@ -591,7 +604,7 @@ margin-bottom: 36px;
      #link{
       text-decoration: none;
      color: black;
-     margin-left:155px;
+     margin-left:115px;
      font-size: 14px;
      position: relative;
      left: 10px;
@@ -613,6 +626,7 @@ margin-bottom: 36px;
 
 
 .register-form{
+    text-transform: none;
 
     box-shadow: 11px -9px 12px 0px rgba(0,0,0,0.73);
 -webkit-box-shadow: 11px -9px 12px 0px rgba(0,0,0,0.73);
@@ -625,7 +639,7 @@ margin-bottom: 36px;
     padding: 20px;
     position: relative;
     height: 675px;
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
     justify-content:center;
     margin: 0;
@@ -639,6 +653,7 @@ margin-bottom: 36px;
     font-size: 16px;
     display: block;
     margin-bottom: 8px;
+    text-transform: none;
   }
 
   .register-form input[type = "text"],
@@ -662,7 +677,7 @@ margin-bottom: 36px;
     cursor: pointer;
     font-size: 16px;
     margin-top: 1px;
-      margin-left: 175px;
+      margin-left: 140px;
       border-radius: 5px;
   }
 
@@ -713,14 +728,14 @@ margin-bottom: 36px;
    #have{
     font-size: 15px;
     margin: 20px;
-    margin-left: 140px;
+    margin-left: 115px;
    }
 
 #backtologin{
     font-size: 15px;
     padding: 20px;
     color:var(--pink);
-    margin-left: 140px;
+    margin-left: 115px;
 
 }
 
@@ -733,6 +748,7 @@ margin-bottom: 36px;
     background-position: center;
 
 }
+
 
       /* pjesa stilimit te tablese te admin dashboard  */
 
@@ -766,13 +782,15 @@ table.tabela {
   
   .logoutbutton{
     position: relative;
+    margin-top: 15px;
     font-size: 11px;
     padding: 10px;
     border-radius: 3px;
     color:black;
     background-color: var(--pink);
-    top: 60px;
+    top: 50px;
     left: 47%;
+    
   }
  
    a[name="logout"]:hover {
@@ -793,3 +811,48 @@ table.tabela {
     cursor: pointer;
 
   }
+
+
+  /*stilizimi i slider ne login*/
+  .slider {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    left: -400px;
+    top: 50px;
+     background-color: white;
+     border-radius: 10px;
+     background: rgb(184,243,209);
+     background: linear-gradient(90deg, rgba(184,243,209,1) 0%, rgba(77,235,254,1) 12%, rgba(181,243,207,1) 25%, rgba(198,243,218,1) 55%, rgba(2,0,36,1) 62%, rgba(252,244,251,1) 62%, rgba(0,242,97,1) 91%, rgba(0,255,105,1) 95%);
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+.usercontactxt{
+    position: relative;
+    right: 30px;
+    padding-left: 50px;
+    color:#333;
+      background:rgba(255, 51, 153,.05);
+      margin-top: 60px;
+      margin-bottom: 12px;
+      text-align: center;
+
+}
+
+.opa{
+height: 100px;
+}
+/*------------------------------------------------------------------------------*/  

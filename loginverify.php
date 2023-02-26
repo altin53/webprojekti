@@ -21,10 +21,12 @@ class Login {
 
             if (empty($this->username)) {
                 $this->errors['username'] = "Username required";
+                echo"username required";
             }
 
             if (empty($this->password)) {
                 $this->errors['password'] = "Password required";
+                echo "password required";
             }
 
             if (empty($this->errors)) {
@@ -45,6 +47,7 @@ class Login {
                     }
                 } else {
                     $this->errors['login_fail'] = "Wrong username/password combination";
+                    echo 'wrong username or password';
                 }
             }
         }
